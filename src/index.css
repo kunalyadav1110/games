@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.btns-div div{
+  width: 23%;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+.blocks div{
+  width: 33%;
+  height: 33%;
+  display: flex;
+  border: 1px solid;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ---------------------------Snake------------------------------ */
+.board-bg{
+  background: url(https://i.pinimg.com/736x/1b/1a/97/1b1a97fa67c3ac8925be42ad7c44b28d.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btn1{
+  width: 16.4%;
+  height: 120px;
+  background-color: red;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.btn2{
+  width: 16.4%;
+  height: 120px;
+  background-color: blue;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.btn3{
+  width: 16.4%;
+  height: 120px;
+  background-color: red;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 20px solid blue;
+  cursor: pointer;
+}
+.btn4{
+  width: 16.4%;
+  height: 120px;
+  background-color: transparent;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+  cursor: pointer;
+}
+/* --------------------------------increse&decrese------------------------------ */
+.body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+.increse{
+  height: 500px;
+  width: 500px;
+  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.increse-left{
+  height: 200px;
+  width: 200px;
+  background-color: brown;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.count{
+  width: 400px;
+  height: 100px;
+  /* background-color: azure; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.positive{
+  width: 100px;
+  height: 100px;
+  background-color:burlywood;
+  text-align: center;
+  cursor: pointer;
+}
+.negative{
+  width: 100px;
+  height: 100px;
+  background-color:burlywood;
+  text-align: center;
+  cursor: pointer;
+}
